@@ -403,6 +403,18 @@ class RoomsController < ApplicationController
   def room_limit_exceeded
     limit = @settings.get_value("Room Limit").to_i
 
+    limit = 1  if current_user&.has_role?(:limit_1)
+    limit = 2  if current_user&.has_role?(:limit_2)
+    limit = 3  if current_user&.has_role?(:limit_3)
+    limit = 4  if current_user&.has_role?(:limit_4)
+    limit = 5  if current_user&.has_role?(:limit_5)
+    limit = 10 if current_user&.has_role?(:limit_10)
+    limit = 15 if current_user&.has_role?(:limit_15)
+    limit = 20 if current_user&.has_role?(:limit_20)
+    limit = 15 if current_user&.has_role?(:no_limit)
+
+    logger.info "Userlimit: #{current_user.email} limit #{limit}"
+
     # Does not apply to admin or users that aren't signed in
     # 15+ option is used as unlimited
     return false if current_user&.has_role?(:admin) || limit == 15
