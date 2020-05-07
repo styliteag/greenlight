@@ -3,12 +3,13 @@ version: '3'
 services:
   app:
     entrypoint: [bin/start]
-    image: bigbluebutton/greenlight:v2
-    container_name: greenlight-v2
+    #image: reg.stylite.de/greenlight:2meet
+    image: styliteag/greenlight:2meet
+    #container_name: greenlight-v2
     env_file: .env
     restart: unless-stopped
     ports:
-      - 127.0.0.1:5000:80
+      - 127.0.0.1:5001:80
 # When using external logging
 #    logging:
 #      driver: $LOG_DRIVER
@@ -26,8 +27,8 @@ services:
   db:
     image: postgres:9.5
     restart: unless-stopped
-    ports:
-      - 127.0.0.1:5432:5432
+    #ports:
+    #  - 127.0.0.1:5432:5432
     volumes:
       - ./db/production:/var/lib/postgresql/data
     environment:
