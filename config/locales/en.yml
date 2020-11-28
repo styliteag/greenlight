@@ -290,7 +290,7 @@ en:
     email: Email
     submit: Submit
   go_back: Go back
-  greenlight: Greenlight
+  greenlight: 2meet.de
   header:
     all_recordings: All Recordings
     dropdown:
@@ -314,9 +314,13 @@ en:
     search:
       start: Start searching...
   landing:
-    about: "%{href} is a simple front-end for your BigBlueButton open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
-    welcome: Welcome to BigBlueButton.
-    video: Watch our tutorial on using Greenlight
+    about: "The conference system is DSGVO compliant, operated by the Stylite AG data center on its own servers in Germany. The basis is the open source software BigBlueButton."
+    welcome: Welcome to our video conferencing platform.
+    video: "If you have already registered a platform user, please log in and design your conference rooms. You will receive your user account either by invitation to register by your administrator or you can register yourself on this page."
+    tech: "Technical requirements and recommendations"
+    tech2: "Participation via browser without software installation. Current browser versions Firefox, Chrome, Safari are supported. We recommend the use of a headset to avoid disturbing noises during the conference. Deactivate your microphone if you only want to listen."
+    tech3: "Lots of success with your video conference"
+    tech4: "Information about the functions on %{href}"
     upgrade: Show me how to upgrade to 2.0!
     version: We've released a new version of Greenlight, but your database isn't compatible.
   language_default: Default (browser language)
@@ -351,7 +355,7 @@ en:
           admins_link: Visit the Organization Page
           subject: New Greenlight User Sign Up
           username: The user signed up with the name %{name} and the email %{email}.
-        subject: Invitation to join BigBlueButton
+        subject: Invitation to register on the video conferencing platform
         username: Your username is %{email}.
       password_reset:
         title: 'Password reset'

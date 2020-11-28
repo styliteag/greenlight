@@ -289,7 +289,7 @@ de_DE:
     email: E-Mail
     submit: Abschicken
   go_back: Zurück
-  greenlight: Greenlight
+  greenlight: 2meet.de
   header:
     all_recordings: Alle Aufzeichnungen
     dropdown:
@@ -313,9 +313,13 @@ de_DE:
     search:
       start: Suche beginnen...
   landing:
-    about: "%{href} ist eine benutzerfreundliche Oberfläche für das Open-Source-Webkonferenzsystem BigBlueButton. Sie können Ihre eigenen Räume erstellen, um Konferenzen zu veranstalten oder können bestehenden Konferenzen über einen kurzen und bequemen Link beitreten."
-    welcome: Willkommen zu BigBlueButton.
-    video: Schauen Sie sich unsere Anleitung zur Verwendung von Greenlight an
+    about: "Das Konferenzsystem wird DSGVO konform, durch das Stylite AG Rechenzentrum, auf eigenen Servern in Deutschland betrieben. Die Basis ist die Open Source Software BigBlueButton."
+    welcome: Willkommen auf Ihrer Videokonferenzplattform.
+    video: "Sofern Sie bereits einen Plattform-Benutzer registriert haben, melden Sie sich bitte an und gestalten Sie Ihre Konferenzräume. Sie erhalten Ihr Benutzerkonto entweder durch Einladung zur Registrierung durch Ihren Administrator oder Sie können sich auf dieser Seite eigenständig registrieren."
+    tech: "Technische Voraussetzungen und Empfehlungen"
+    tech2: "Teilnahme mittels Browser ohne Softwareinstallation. Unterstützt werden aktuelle Browserversionen Firefox, Chrome, Safari. Wir empfehlen die Verwendung eines Headset, um störende Geräusche in der Konferenz zu vermeiden Deaktivieren Sie ihr Mikrofon, wenn Sie ausschliesslich zuhören möchten."
+    tech3: "Viel Erfolg mit Ihrer Videokonferenz"
+    tech4: "Informationen zu den Funktionen auf %{href}"
     upgrade: "Zeigen Sie mir, wie ich auf Version 2.0. update!"
     version: "Wir haben eine neue Version von Greenlight veröffentlicht, aber Ihre Datenbank ist damit nicht kompatibel."
   language_default: Voreinstellung (Browsersprache)
@@ -350,7 +354,7 @@ de_DE:
           admins_link: Organisationsseite besuchen
           subject: Registrierung neuer Greenlight-Nutzer
           username: "Der Nutzer hat sich mit dem Namen %{name} und der E-Mail %{email} registriert."
-        subject: Einladung zur BigBlueButton-Teilnahme
+        subject: Einladung zur Registrierung an der Videokonferenz Plattform
         username: "Ihr Nutzername ist %{email}."
       password_reset:
         title: 'Passwort zurücksetzen'
