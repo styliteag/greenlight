@@ -15,27 +15,12 @@
 
 
 <div class="container mt-8 mb-6 text-center">
-
-  <h2 class="mb-6"><%= t("greenlight") %> <%= t("features.title") %></h2>
-
-  <div class="row feature-stamp">
-    <div class="col-lg-3 col-md-6">
-      <div class="feature-item">
-        <div class="stamp bg-primary"><i class="fas fa-chalkboard-teacher fa-2x"></i></div>
-        <h4 class="mt-4"><%= t("features.rooms") %></h4>
-      </div>
-    </div>
-    <div class="col-lg-3 col-md-6">
-      <span class="stamp bg-primary"><i class="fas fa-film fa-2x"></i></span>
-      <h4 class="mt-4"><%= t("features.recordings") %></h4>
-    </div>
-    <div class="col-lg-3 col-md-6">
-      <span class="stamp bg-primary"><i class="fas fa-pencil-alt fa-2x"></i></span>
-      <h4 class="mt-4"><%= t("features.designs") %></h4>
-    </div>
-    <div class="col-lg-3 col-md-6">
-      <span class="stamp bg-primary"><i class="fas fa-door-open fa-2x"></i></span>
-      <h4 class="mt-4"><%= t("features.authentication") %></h4>
+  <div class="row">
+    <div class="col-md-12 col-sm-12 text-center">
+      <h4> <%= t("landing.tech").html_safe %></h4>
+      <p class="lead2 offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.tech2").html_safe %></p>
+      <p class="lead2 offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.tech3").html_safe %></p>
+      <%= t("landing.tech4", href: link_to(t("greenlight"), "https://2meet.de", target: "_blank", rel: "noopener")).html_safe %>
     </div>
   </div>
 </div>
