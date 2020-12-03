@@ -314,9 +314,9 @@ en:
     search:
       start: Start searching...
   landing:
-    about: "%{href} is a simple front-end for your BigBlueButton open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
-    welcome: Welcome to BigBlueButton.
-    video: Watch our tutorial on using Greenlight
+    about: "The conference system is operated DS-GVO conformal in Germany by the Stylite AG data center. The basis is the open source software BigBlueButton."
+    welcome: Welcome to our video conferencing platform.
+    video: "If you have already registered a platform user, please log in and design your conference rooms. You will receive your user account either by invitation to register by your administrator or you can register yourself on this page."
     upgrade: Show me how to upgrade to 2.0!
     version: We've released a new version of Greenlight, but your database isn't compatible.
   language_default: Default (browser language)
