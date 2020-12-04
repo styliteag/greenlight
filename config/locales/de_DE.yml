@@ -313,7 +313,7 @@ de_DE:
     search:
       start: Suche beginnen...
   landing:
-    about: "Das Konferenzsystem wird DS-GVO konform in Deutschland durch das Stylite AG Rechenzentrum betrieben. Die Basis ist die Open Source Software BigBlueButton."
+    about: "Das Konferenzsystem wird DSGVO konform, durch das Stylite AG Rechenzentrum, auf eigenen Servern in Deutschland betrieben. Die Basis ist die Open Source Software BigBlueButton."
     welcome: Willkommen auf Ihrer Videokonferenzplattform.
     video: "Sofern Sie bereits einen Plattform-Benutzer registriert haben, melden Sie sich bitte an und gestalten Sie Ihre Konferenzräume. Sie erhalten Ihr Benutzerkonto entweder durch Einladung zur Registrierung durch Ihren Administrator oder Sie können sich auf dieser Seite eigenständig registrieren."
     tech: "Technische Voraussetzungen und Empfehlungen"

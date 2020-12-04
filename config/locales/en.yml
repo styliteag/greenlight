@@ -314,7 +314,7 @@ en:
     search:
       start: Start searching...
   landing:
-    about: "The conference system is operated DS-GVO conformal in Germany by the Stylite AG data center. The basis is the open source software BigBlueButton."
+    about: "The conference system is DSGVO compliant, operated by the Stylite AG data center on its own servers in Germany. The basis is the open source software BigBlueButton."
     welcome: Welcome to our video conferencing platform.
     video: "If you have already registered a platform user, please log in and design your conference rooms. You will receive your user account either by invitation to register by your administrator or you can register yourself on this page."
     tech: "Technical requirements and recommendations"
