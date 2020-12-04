@@ -317,6 +317,10 @@ en:
     about: "The conference system is operated DS-GVO conformal in Germany by the Stylite AG data center. The basis is the open source software BigBlueButton."
     welcome: Welcome to our video conferencing platform.
     video: "If you have already registered a platform user, please log in and design your conference rooms. You will receive your user account either by invitation to register by your administrator or you can register yourself on this page."
+    tech: "Technical requirements and recommendations"
+    tech2: "Participation via browser without software installation. Current browser versions Firefox, Chrome, Safari are supported."
+    tech3: "We recommend the use of a headset to avoid disturbing noises during the conference. Deactivate your microphone if you only want to listen."
+    tech4: "Lots of success with your video conference"
     upgrade: Show me how to upgrade to 2.0!
     version: We've released a new version of Greenlight, but your database isn't compatible.
   language_default: Default (browser language)
