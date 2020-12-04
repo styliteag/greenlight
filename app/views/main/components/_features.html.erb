@@ -20,7 +20,7 @@
       <h4> <%= t("landing.tech").html_safe %></h4>
       <p class="lead2 offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.tech2").html_safe %></p>
       <p class="lead2 offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.tech3").html_safe %></p>
-      <p class="lead2 offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.tech4").html_safe %></p>
+      <%= t("landing.tech4", href: link_to(t("greenlight"), "https://2meet.de", target: "_blank", rel: "noopener")).html_safe %>
     </div>
   </div>
 </div>
