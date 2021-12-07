@@ -145,6 +145,7 @@ en:
     roles:
       appear_in_share_list: Include users with this role in the dropdown for sharing rooms
       can_create_rooms: Can create rooms
+      can_launch_recording: Allow users with this role to record their meetings
       delete: Delete the role
       invalid_create: There was a problem creating a new role. Please check the role values and try again
       invalid_order: There was a problem updating the priority of the role. Please check the values and try again
@@ -404,7 +405,9 @@ en:
       access_code: Access Code
       moderator_access_code: Moderator Code
       access_code_placeholder: Generate an optional room access code
+      reset_access_code: Reset the optional room access code
       moderator_access_code_placeholder: Generate an optional code for moderators
+      reset_moderator_access_code: Reset the optional code for moderators
       auto_join: Automatically join me into the room
       create: Create Room
       free_delete: You will be free to delete this room at any time.
